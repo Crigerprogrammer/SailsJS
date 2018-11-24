@@ -215,6 +215,7 @@ parasails.registerComponent('ajaxForm', {
               // > "Confirm email" re-entry field for an optional email address?
               // > Just make `required` validation rule dynamic, and everything
               // > else will work as expected.
+              //Cruso de Sauls.js un poco de codigo para la aopicacion de Sails Js
               // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
             } else if (ruleName === 'isEmail' && (ruleRhs === true || ruleRhs === false)) {
               // ® Must be an email address (unless falsy)
